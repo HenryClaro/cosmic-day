@@ -1,0 +1,135 @@
+
+
+.fundo {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.90);
+}
+
+.janela {
+  position: relative;
+  display: flex;
+  width: 1100px;
+  max-width: 95vw;
+  max-height: 90vh;
+  background-color: #171a30;
+  border: 1px solid #454266;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.areaImagem {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #080a17;
+}
+
+.imagem {
+  display: block;
+  width: 100%;
+  max-height: 85vh;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.areaTexto {
+  width: 45%;
+  max-height: 85vh;
+  padding: 45px 30px 30px;
+  overflow-y: auto;
+  text-align: left;
+}
+
+.data {
+  color: #e4c47a;
+  font-size: 14px;
+}
+
+.areaTexto h2 {
+  color: white;
+  font-size: 25px;
+  margin: 14px 0 25px;
+}
+
+.areaTexto h4 {
+  color: #e4c47a;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.areaTexto p {
+  color: #d5d8e9;
+  font-size: 15px;
+  line-height: 1.7;
+  white-space: pre-line;
+}
+
+.botao {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 20px;
+  background-color: #7865db;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.botao:hover {
+  background-color: #927ff0;
+}
+
+.areaTexto small {
+  display: block;
+  color: #aab1cc;
+  margin-top: 25px;
+}
+
+.fechar {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: #34374b;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.fechar:hover {
+  background-color: #625c83;
+}
+
+@media (max-width: 700px) {
+  .janela {
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
+  .areaImagem, .areaTexto {
+    width: 100%;
+  }
+
+  .imagem {
+    max-height: 45vh;
+  }
+
+  .areaTexto {
+    max-height: none;
+    padding: 25px;
+    overflow-y: visible;
+  }
+}

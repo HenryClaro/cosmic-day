@@ -1,0 +1,70 @@
+
+
+.card {
+  display: flex;
+  align-items: center;
+  min-height: 190px;
+  background-color: #171a30;
+  border: 1px solid #454266;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.botaoImagem {
+  width: 38%;
+  height: 190px;
+  padding: 0;
+  border: none;
+  background-color: #090b18;
+  cursor: zoom-in;
+}
+
+.imagem {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.semImagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38%;
+  height: 190px;
+  padding: 20px;
+  background-color: #242945;
+  text-align: center;
+}
+
+.conteudo {
+  flex: 1;
+  padding: 25px;
+  text-align: center;
+}
+
+.conteudo span {
+  color: #e4c47a;
+  font-size: 15px;
+}
+
+.conteudo h3 {
+  color: white;
+  font-size: 22px;
+  margin: 12px 0;
+}
+
+@media (max-width: 600px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .botaoImagem, .semImagem {
+    width: 100%;
+    height: 220px;
+  }
+
+  .conteudo {
+    width: 100%;
+  }
+}

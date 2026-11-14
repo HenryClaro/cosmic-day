@@ -1,0 +1,69 @@
+
+.pagina {
+  min-height: 100vh;
+  padding: 40px 20px; /* espaco interno */
+  text-align: center;
+}
+
+
+.inicio {
+  max-width: 750px;
+  margin: 70px auto 60px;
+}
+
+.inicio h1 {
+  color: white;
+  font-size: 52px;
+  margin-bottom: 10px;
+}
+
+
+.descricao {
+  color: white;
+  font-size: 19px;
+  line-height: 1.5;
+  margin: 15px auto;
+}
+
+.instrucao {
+  color: #e4c47a;
+  font-size: 15px;
+  line-height: 1.6;
+  max-width: 530px;
+  margin: 15px auto;
+}
+
+.mensagem {
+  color: #e4c47a;
+  margin: 25px auto;
+}
+
+.resultados {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.resultados h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+
+.galeria {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+footer {
+  margin-top: 60px;
+  color: #c0c3dc;
+  font-size: 13px;
+}
+
+
+@media (max-width: 600px) {
+  .inicio h1 {
+    font-size: 38px;
+  }
+}

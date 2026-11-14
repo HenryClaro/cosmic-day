@@ -1,0 +1,27 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+
+  background-color: #080a17;
+
+  background-image:
+    linear-gradient(
+      rgba(5, 7, 20, 0.65),
+      rgba(5, 7, 20, 0.80)
+    ),
+    url('./assets/blackstars.jpeg');
+
+  background-repeat: repeat;
+  background-size: 700px auto;
+}
+
+a {
+  color: #e4c47a;
+}
