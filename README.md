@@ -1,4 +1,4 @@
-# Cpsmic Day
+# Cosmic Day
 
 Aplicação web desenvolvida com React e Vite que utiliza a API APOD da NASA.
 
